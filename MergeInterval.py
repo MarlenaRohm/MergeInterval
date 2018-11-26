@@ -1,6 +1,6 @@
 def MERGE(*args):
     if len(args) < 2:     #if not more then 2 intervals are given, the script stops
-        print("Only possible with two intervals as input")
+        print("Only possible with at least two intervals as input")
         return
     args=sorted(args) #sorts the arguments
     new=None #temporarily saves a merged interval
